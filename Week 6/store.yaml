@@ -1,0 +1,17 @@
+file_type: csv
+dataset_name: file
+file_name: data
+table_name: edsurv
+inbound_delimiter: ","
+outbound_delimiter: "|"
+skip_leading_rows: 1
+columns: 
+    - JapanTradeData
+      - YearAndMonth
+      - ExportOrImport
+      - HSCode
+      - Customs
+      - Country 
+      - Q1
+      - Q2
+      - Value
